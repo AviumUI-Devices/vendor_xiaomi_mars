@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/xiaomi/mars",
         "hardware/qcom-caf/sm8350",
         "hardware/xiaomi",
         "vendor/qcom/opensource/display",
@@ -10356,6 +10357,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmisight.so",
             ],
             shared_libs: [
+                "libmisightjson_shim",
                 "libjsoncpp_shim",
                 "liblog",
                 "libcutils",
