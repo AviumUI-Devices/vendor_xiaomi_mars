@@ -251,7 +251,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mars/proprietary/vendor/etc/sensors/config/sx933x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx933x_0.json \
     vendor/xiaomi/mars/proprietary/vendor/etc/sensors/config/tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3408.json \
     vendor/xiaomi/mars/proprietary/vendor/etc/sensors/config/tmd3719.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd3719.json \
-    vendor/xiaomi/mars/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/mars/proprietary/vendor/etc/sensors/judge_calibrated.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/judge_calibrated.json \
     vendor/xiaomi/mars/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/mars/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
@@ -473,16 +472,10 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libaudioroute_ext \
-    libbatterylistener \
     libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     libqtigef \
     libresampler \
-    libsndmonitor \
-    libspkrprot \
     libvideoNS \
     HDR10plus \
     com.qti.eeprom.mars_ofilm_ov13b10_p24c64f_ultra_eeprom \
@@ -735,7 +728,6 @@ PRODUCT_PACKAGES += \
     libminziparchive \
     libmiphone_capture_bokeh \
     libmiphone_preview_bokeh \
-    libmisight \
     libmivsock_utils \
     libmm-color-convertor \
     libmm-hdcpmgr \
@@ -776,6 +768,7 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libssc \
     libssc_default_listener \
+    libssccalapi \
     libsupermoon \
     libswregistrationalgo \
     libsynx \
